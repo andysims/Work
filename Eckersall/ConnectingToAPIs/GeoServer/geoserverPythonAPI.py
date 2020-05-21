@@ -5,7 +5,7 @@ from geoserver.catalog import Catalog
 cat = Catalog('http://url/geoserver/rest/', username="user", password="password")
 
 # Create Workspace
-#ws = cat.create_workspace('ws_name','http://uri/CA_Claremont')
+#ws = cat.create_workspace('ws_name','http://uri/ws_name')
 ws = cat.get_workspace('ws_name')
 
 # Create Store from PostGIS
